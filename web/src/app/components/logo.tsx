@@ -13,7 +13,7 @@ export const Logo: FC = () => {
         />
       </div>
       <div className="relative text-nowrap font-medium text-2xl md:text-3xl text-center text-zinc-950 ">
-        kFind
+        政策搜读
       </div>
     </div>
   );

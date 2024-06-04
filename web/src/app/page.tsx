@@ -31,14 +31,14 @@ export default function Home() {
         <Search></Search>
         <div className="flex flex-col gap-1.5">
           <div className="flex gap-1 flex-wrap justify-right">
-            <HotSpot query="美国阿波罗登月造假?" />
-            <HotSpot query="胖猫事件惊天大反转！谭竹被冤枉，姐姐引导舆论?" />
-            <HotSpot query="伊朗总统坠机身亡，事件时间线?" />
+            <HotSpot query="异地就医是否可以使用医保码?" />
+            <HotSpot query="上海出台长三角异地住房公积金贷款还贷提取政策" />
+            <HotSpot query="老年助餐优惠或补贴有哪些形式？如何申请助餐补贴?" />
           </div>
           <div className="flex gap-1 flex-wrap justify-right">
-            <HotSpot query="《庆余年2》在线播放地址?" />
-            <HotSpot query="特斯拉将在华建立自动驾驶数据中心?" />
-            <HotSpot query="全网一周热点事件梳理，时间线、观点一键打尽" />
+            <HotSpot query="想开咖啡店，食品经营许可证怎么办?" />
+            <HotSpot query="劳动合同期限有哪几种？试用期如何约定？" />
+            <HotSpot query="养老金申领手续谁来办？何时领？发放信息哪里查？" />
           </div>
         </div>
         <Footer></Footer>

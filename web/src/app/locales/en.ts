@@ -9,7 +9,7 @@ const en: LocaleType = {
     return: "",
   },
   Search: {
-    placeholder: "Based on kOS Intelligent Search...",
+    placeholder: "Based on kOS intelligent search, we help you find and interpret policies, fully utilize, and benefit from them...",
   },
   Footer: {
     statement: "The above content is searched and summarized by kFind AI, please carefully check.",

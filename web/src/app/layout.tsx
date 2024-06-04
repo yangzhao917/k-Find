@@ -5,7 +5,7 @@ import "./globals.css";
 
 
 const inter = Inter({ subsets: ["latin"] });
-export const metadata: Metadata = { title: "kFind", description: "基于kOS的智能搜索", };
+export const metadata: Metadata = { title: "政策搜读", description: "基于kOS的智能搜索，帮助您查找、解读政策，充分利用、享受政策", };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

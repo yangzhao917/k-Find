@@ -2,7 +2,7 @@
 import { Answer } from "@/app/components/answer";
 import { Sources } from "@/app/components/sources";
 import { Source } from "@/app/global/source";
-import { parseStreamingEx, fetchJobId, fetchEventStream } from "@/app/tools/parse-streaming";
+import { parseStreamingEx } from "@/app/tools/parse-streaming";
 import { Annoyed } from "lucide-react";
 import { FC, useEffect, useState, useRef } from "react";
 import Locale, { getLang } from "../locales";

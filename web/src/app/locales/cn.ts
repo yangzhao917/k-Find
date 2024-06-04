@@ -7,7 +7,7 @@ const cn = {
     return: "",
   },
   Search: {
-    placeholder: "基于kOS智能搜索...",
+    placeholder: "基于kOS的智能搜索，帮助您查找、解读政策，充分利用、享受政策...",
   },
   Footer: {
     statement: "上述内容由kFind AI搜索并总结，请仔细甄别。",

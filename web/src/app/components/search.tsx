@@ -18,7 +18,7 @@ export const Search: FC<SearchProps> = ({ useContinueButton = false }) => {
   const old_rid = decodeURIComponent(searchParams.get("rid") || "");
   
   const [isNormalSearch, setIsNormalSearch] = useState(
-    () => localStorage.getItem("isNormalSearch") === "true"
+    () => localStorage.getItem("isNormalSearch") !== "false"
   );
 
   useEffect(() => {
@@ -71,7 +71,7 @@ export const Search: FC<SearchProps> = ({ useContinueButton = false }) => {
             onChange={() => setIsNormalSearch(!isNormalSearch)}
             checkedChildren={Locale.Type.deep}
             unCheckedChildren={Locale.Type.simple}
-            defaultChecked={false}
+            defaultChecked={true}
           />
         </div>
       </label>
